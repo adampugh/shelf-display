@@ -73,13 +73,13 @@ import spawn4 from '../images/comics/spawn306d.jpg'
 import spawn5 from '../images/comics/spawn309d.jpg'
 
 const displays = [
-    { character: 'Spawn', comic: spawn3, figure: null, firstApp: spawn1 },
+    // spawn
+    { character: 'Spawn', comic: spawn1, figure: spawn, firstApp: spawn1 },
     { character: 'Spawn Gunslinger', comic: spawn2, figure: spawngunslinger, firstApp: spawn4 },
     { character: '', comic: spawn4, figure: null, firstApp: null },
     { character: '', comic: spawn5, figure: null, firstApp: null },
 
-
-
+    // xmen
     { character: 'Apocalypse', comic: a1, figure: apoc, firstApp: aFirstApp },
     { character: 'Mister Sinister', comic: s1, figure: ms, firstApp: sFirstApp },
     { character: 'Stryfe', comic: st2, figure: stryfe, firstApp: stFirstApp },
@@ -89,7 +89,7 @@ const displays = [
     { character: 'Wolverine', comic: w1, figure: wolverine, firstApp: null },
     { character: 'Cyclops', comic: c1, figure: cyclops, firstApp: null },
     
-    
+    // marvel
     { character: 'Spider-Man 2099', comic: sp1, figure: spiderman2099, firstApp: null },
     { character: 'Moon Knight', comic: mk1, figure: moonknight, firstApp: null },
     { character: 'Symbiote Spider-Man', comic: bsp1, figure: blackspidey, firstApp: null },
