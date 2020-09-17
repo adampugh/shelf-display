@@ -19,6 +19,7 @@ import xman from '../images/figures/xman.png'
 import moonknight from '../images/figures/moonknight.png'
 import spiderman2099 from '../images/figures/spiderman2099.png'
 import blackspidey from '../images/figures/blackspidey.png'
+import deadpool from '../images/figures/deadpool.png'
 
 
 // comics
@@ -65,6 +66,9 @@ import mk2 from '../images/comics/moonknight1var.jpg'
 // black spidey
 import bsp1 from '../images/comics/secretwars8.jpg'
 
+// deadpool
+import d1 from '../images/comics/newmutants98.jpg'
+
 // spawn
 import spawn1 from '../images/comics/spawn1.jpg'
 import spawn2 from '../images/comics/spawn174.jpg'
@@ -73,12 +77,6 @@ import spawn4 from '../images/comics/spawn306d.jpg'
 import spawn5 from '../images/comics/spawn309d.jpg'
 
 const displays = [
-    // spawn
-    { character: 'Spawn', comic: spawn1, figure: spawn, firstApp: spawn1 },
-    { character: 'Spawn Gunslinger', comic: spawn2, figure: spawngunslinger, firstApp: spawn4 },
-    { character: '', comic: spawn4, figure: null, firstApp: null },
-    { character: '', comic: spawn5, figure: null, firstApp: null },
-
     // xmen
     { character: 'Apocalypse', comic: a1, figure: apoc, firstApp: aFirstApp },
     { character: 'Mister Sinister', comic: s1, figure: ms, firstApp: sFirstApp },
@@ -93,7 +91,13 @@ const displays = [
     { character: 'Spider-Man 2099', comic: sp1, figure: spiderman2099, firstApp: null },
     { character: 'Moon Knight', comic: mk1, figure: moonknight, firstApp: null },
     { character: 'Symbiote Spider-Man', comic: bsp1, figure: blackspidey, firstApp: null },
-    { character: '', comic: null, figure: null, firstApp: null },
+    { character: 'Deadpool', comic: d1, figure: deadpool, firstApp: null },
+
+    // spawn
+    { character: 'Spawn', comic: spawn1, figure: spawn, firstApp: spawn1 },
+    { character: 'Spawn Gunslinger', comic: spawn2, figure: spawngunslinger, firstApp: spawn4 },
+    { character: '', comic: spawn4, figure: null, firstApp: null },
+    { character: '', comic: spawn5, figure: null, firstApp: null },
 ]
 
 class Shelves extends Component {
