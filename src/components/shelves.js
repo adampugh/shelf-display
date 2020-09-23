@@ -92,6 +92,7 @@ const displays = [
     { character: 'Moon Knight', comic: mk1, figure: moonknight, firstApp: null },
     { character: 'Symbiote Spider-Man', comic: bsp1, figure: blackspidey, firstApp: null },
     { character: 'Deadpool', comic: d1, figure: deadpool, firstApp: null },
+    // cosmic ghost rider
 
     // spawn
     { character: 'Spawn', comic: spawn1, figure: spawn, firstApp: spawn1 },
