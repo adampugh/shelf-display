@@ -20,9 +20,20 @@ import moonknight from '../images/figures/moonknight.png'
 import spiderman2099 from '../images/figures/spiderman2099.png'
 import blackspidey from '../images/figures/blackspidey.png'
 import deadpool from '../images/figures/deadpool.png'
+import cosmicghostrider from '../images/figures/cosmicghostrider.png'
 
 
 // comics
+import blank1 from '../images/comics/blank1.jpg'
+
+
+// cosmic ghost rider
+import cgr1 from '../images/comics/thanos13.jpg'
+import cgr2 from '../images/comics/cosmicghostrider1.jpeg'
+import cgr3 from '../images/comics/thanos17var.jpg'
+import cgr4 from '../images/comics/thanos13.jpg'
+
+
 // mr sininster
 import sFirstApp from '../images/comics/xmen221.jpg'
 import s1 from '../images/comics/cable6.jpg'
@@ -77,6 +88,12 @@ import spawn4 from '../images/comics/spawn306d.jpg'
 import spawn5 from '../images/comics/spawn309d.jpg'
 
 const displays = [
+    // cosmic ghost rider
+    { character: 'Cosmic Ghost Ridder', comic: cgr1, figure: cosmicghostrider, firstApp: cgr1, additionalStyles: 'double-panel' },
+    { character: '', comic: cgr2, figure: null, firstApp: null },
+    { character: '', comic: blank1, figure: null, firstApp: null },
+    { character: '', comic: blank1, figure: null, firstApp: null },
+
     // xmen
     { character: 'Apocalypse', comic: a1, figure: apoc, firstApp: aFirstApp },
     { character: 'Mister Sinister', comic: s1, figure: ms, firstApp: sFirstApp },
@@ -92,13 +109,15 @@ const displays = [
     { character: 'Moon Knight', comic: mk1, figure: moonknight, firstApp: null },
     { character: 'Symbiote Spider-Man', comic: bsp1, figure: blackspidey, firstApp: null },
     { character: 'Deadpool', comic: d1, figure: deadpool, firstApp: null },
-    // cosmic ghost rider
+    
 
     // spawn
     { character: 'Spawn', comic: spawn1, figure: spawn, firstApp: spawn1 },
     { character: 'Spawn Gunslinger', comic: spawn2, figure: spawngunslinger, firstApp: spawn4 },
-    { character: '', comic: spawn4, figure: null, firstApp: null },
-    { character: '', comic: spawn5, figure: null, firstApp: null },
+    { character: '', comic: blank1, figure: null, firstApp: null },
+    { character: '', comic: blank1, figure: null, firstApp: null },
+
+
 ]
 
 class Shelves extends Component {
@@ -117,7 +136,7 @@ class Shelves extends Component {
             <>
                 <button onClick={this.firstAppClick}>First App</button>
                 <div className="shelves">
-                    { displays.map(({ comic, figure, firstApp }) => <Shelf figure={figure} comic={this.state.firstAppSelected ? firstApp : comic} />) }
+                    { displays.map(({ comic, figure, firstApp, additionalStyles }) => <Shelf figure={figure} comic={this.state.firstAppSelected ? firstApp : comic} additionalStyles={additionalStyles} />) }
                 </div>
             </>
         )

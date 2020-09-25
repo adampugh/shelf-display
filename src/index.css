@@ -50,3 +50,14 @@ img {
   width: 100%;
   object-fit: scale-down;
 }
+
+.double-panel {
+  height: 900px !important;
+  width: 400px !important;
+  z-index: 1000;
+}
+
+.double-panel img {
+  margin-top: -20px;
+  height: 290px;
+}
