@@ -21,6 +21,7 @@ import spiderman2099 from '../images/figures/spiderman2099.png'
 import blackspidey from '../images/figures/blackspidey.png'
 import deadpool from '../images/figures/deadpool.png'
 import cosmicghostrider from '../images/figures/cosmicghostrider.png'
+import venom from '../images/figures/venom.png'
 
 
 // comics
@@ -87,12 +88,16 @@ import spawn3 from '../images/comics/spawn175.jpg'
 import spawn4 from '../images/comics/spawn306d.jpg'
 import spawn5 from '../images/comics/spawn309d.jpg'
 
+// venom
+import v1 from '../images/comics/venom1.jpg'
+import v2 from '../images/comics/spiderman300.jpg'
+
 const displays = [
     // cosmic ghost rider
     { character: 'Cosmic Ghost Ridder', comic: cgr1, figure: cosmicghostrider, firstApp: cgr1, additionalStyles: 'double-panel' },
     { character: '', comic: cgr2, figure: null, firstApp: null },
-    { character: '', comic: cgr4, figure: null, firstApp: null },
-    { character: '', comic: cgr3, figure: null, firstApp: null },
+    { character: 'Venom', comic: v1, figure: venom, firstApp: null },
+    { character: '', comic: blank1, figure: null, firstApp: null },
 
     // xmen
     { character: 'Apocalypse', comic: a1, figure: apoc, firstApp: aFirstApp },
