@@ -31,7 +31,7 @@ import blank1 from '../images/comics/blank1.jpg'
 import cgr1 from '../images/comics/thanos13.jpg'
 import cgr2 from '../images/comics/cosmicghostrider1.jpeg'
 import cgr3 from '../images/comics/thanos17var.jpg'
-import cgr4 from '../images/comics/thanos13.jpg'
+import cgr4 from '../images/comics/thanos14.jpg'
 
 
 // mr sininster
@@ -91,8 +91,8 @@ const displays = [
     // cosmic ghost rider
     { character: 'Cosmic Ghost Ridder', comic: cgr1, figure: cosmicghostrider, firstApp: cgr1, additionalStyles: 'double-panel' },
     { character: '', comic: cgr2, figure: null, firstApp: null },
-    { character: '', comic: blank1, figure: null, firstApp: null },
-    { character: '', comic: blank1, figure: null, firstApp: null },
+    { character: '', comic: cgr4, figure: null, firstApp: null },
+    { character: '', comic: cgr3, figure: null, firstApp: null },
 
     // xmen
     { character: 'Apocalypse', comic: a1, figure: apoc, firstApp: aFirstApp },
