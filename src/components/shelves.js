@@ -115,14 +115,11 @@ const displays = [
     { character: 'Symbiote Spider-Man', comic: bsp1, figure: blackspidey, firstApp: null },
     { character: 'Deadpool', comic: d1, figure: deadpool, firstApp: null },
     
-
     // spawn
     { character: 'Spawn', comic: spawn1, figure: spawn, firstApp: spawn1 },
     { character: 'Spawn Gunslinger', comic: spawn2, figure: spawngunslinger, firstApp: spawn4 },
     { character: '', comic: blank1, figure: null, firstApp: null },
     { character: '', comic: blank1, figure: null, firstApp: null },
-
-
 ]
 
 class Shelves extends Component {
